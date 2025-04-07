@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Calculator container -->
+    <div class="Calculator">
+
+        <!-- History display container -->
+        <div class="history_container">
+            <!-- Added Placeholder for previous calculation history -->
+            <p id="history" class="history-text"></p>
+        </div>
+
+        <!-- Input box -->
+        <input type="text" placeholder="0" id="InputBox">  
+
+        <!-- Buttons grid -->
+        <div class="buttons">
+            <!-- First row of function/operator buttons -->
+            <button class="BTN">AC</button>     <!-- Clear All -->
+            <button class="BTN">%</button>      <!-- Modulus operator -->
+            <button class="BTN">DEL</button>    <!-- Delete last character -->
+            <button class="BTN">/</button>      <!-- Division -->
+
+            <!-- Number buttons and operators -->
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="BTN">*</button>      <!-- Multiplication -->
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="BTN">-</button>      <!-- Subtraction -->
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="BTN">+</button>      <!-- Addition -->
+
+            <!-- Last row with zeroes, decimal, and equals -->
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="EqlBtn">=</button>   <!-- Calculate result -->
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

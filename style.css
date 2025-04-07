@@ -1,0 +1,146 @@
+/* Importing Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Reseting to default: margin, padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body styling: Center calculator and applying gradient background */
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg, #FFFFFF, #8AAAE5);
+    padding: 10px;  /* Padding for spacing on small screens */
+}
+
+/* Calculator container box with blur/glass effect */
+.Calculator {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px);          /* Glassmorphism blur effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Input field style */
+input {
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 320px;
+    border: none;
+    padding: 16px;
+    font-size: 33px;
+    text-align: right;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    outline: none;
+    white-space: nowrap;
+    overflow-x: auto;
+    cursor: default; /* Prevent text selection */
+}
+
+/* History container aligned to the right */
+.history_container {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Styling for the history text above the input */
+.history-text {
+    text-align: right;
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
+
+/* ID selector for additional history styling */
+#history {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Grid layout for calculator buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 10px;
+}
+
+/* Button base styling */
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Scale button on hover for feedback */
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Style for equal button */
+.EqlBtn {
+    background-color: orange;
+    color: white;
+}
+
+/* Style for function/operator buttons (AC, DEL, etc.) */
+.BTN {
+    background-color: #C8C8C8;
+}
+
+/* Responsive design for screens less than 450px wide */
+@media screen and (max-width: 450px) {
+    .Calculator {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 28px;
+    }
+}
+
+/* For very small screens */
+@media screen and (max-width: 350px) {
+    button {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 24px;
+    }
+}
