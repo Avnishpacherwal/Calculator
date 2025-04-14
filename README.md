@@ -20,7 +20,7 @@ A modern, responsive web-based calculator that supports inline editing, keyboard
 
 ## Screenshot
 
-![Calculator](Calculaotr.png)
+![Calculator](Calculator.png)
 
 ## How to Use
 
