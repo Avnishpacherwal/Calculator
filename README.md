@@ -16,8 +16,7 @@ A modern, responsive web-based calculator that supports inline editing, keyboard
 - `index.html` — HTML layout for the calculator
 - `style.css` — Styled with responsive, modern UI
 - `script.js` — Contains core calculator logic
-- `Basic Calculator.docx.pdf` — Assignment brief/documentation
-
+- 
 ## Screenshot
 
 ![Calculator](Calculator.png)
@@ -29,14 +28,7 @@ A modern, responsive web-based calculator that supports inline editing, keyboard
 3. Press `=` or `Enter` to calculate.
 4. Press `DEL` or `Backspace` to delete.
 5. Press `AC` to clear everything.
-
-## Future Improvements
-
-- Support for advanced operations (e.g. square root, exponents)
-- Dark mode toggle
-- Mobile vibration feedback
-- Memory buttons (M+, MR, MC)
-
+6. 
 ---
 
 **Made with ❤️ using HTML, CSS, and JavaScript**
