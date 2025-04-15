@@ -28,7 +28,6 @@ A modern, responsive web-based calculator that supports inline editing, keyboard
 3. Press `=` or `Enter` to calculate.
 4. Press `DEL` or `Backspace` to delete.
 5. Press `AC` to clear everything.
-6. 
 ---
 
 **Made with ❤️ using HTML, CSS, and JavaScript**
