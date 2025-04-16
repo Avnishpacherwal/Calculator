@@ -16,7 +16,7 @@ A modern, responsive web-based calculator that supports inline editing, keyboard
 - `index.html` — HTML layout for the calculator
 - `style.css` — Styled with responsive, modern UI
 - `script.js` — Contains core calculator logic
-- 
+  
 ## Screenshot
 
 ![Calculator](Calculator.png)
